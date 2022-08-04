@@ -4,7 +4,7 @@
   "description": "mern app",
   "main": "server.js",
   "scripts": {
-    "test": "cd /frontend/src/App.test.js && npm test",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon backend/server"
   },
   "author": "Jason",
@@ -12,6 +12,7 @@
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "webpack": "^5.74.0"
   }
 }
