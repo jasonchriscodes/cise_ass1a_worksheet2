@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "cd frontend && npm test",
-    "start": "nodemon backend/server",
+    "start": "node backend/server",
     "build": "cd frontend && npm run build"
   },
   "author": "Jason",
