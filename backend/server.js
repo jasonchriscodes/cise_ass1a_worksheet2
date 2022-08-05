@@ -18,6 +18,11 @@ server.get("/api/articles/:id", (req, res) => {
   res.send(article);
   console.log(req.params);
 });
+server.get("/api/articles/year/:pubyear", (req, res) => {
+  const article = articles.find((n) => n.pubyear === req.params.pubyear);
+  res.send(article);
+  console.log(req.params);
+});
 
 server.listen(
   PORT,
