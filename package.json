@@ -4,8 +4,9 @@
   "description": "mern app",
   "main": "server.js",
   "scripts": {
-    "test": "",
-    "start": "nodemon backend/server"
+    "test": "cd frontend && npm test",
+    "start": "nodemon backend/server",
+    "build": "cd frontend && npm run build"
   },
   "author": "Jason",
   "license": "ISC",
